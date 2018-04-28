@@ -15,4 +15,8 @@ Find discrepancies between campaigns (local ads) and remote ads.
 
 1. Ignore the case of not being able to find campaign.
 
-1. not handling external API errors - we cannot fix anyway, so just explode.
+1. Not handling external API errors - we cannot fix anyway, so just explode.
+
+## Running Specs
+
+`rspec`

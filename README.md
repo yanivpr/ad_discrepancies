@@ -19,10 +19,12 @@ Find discrepancies between campaigns (local ads) and remote ads.
 
 ## Running Specs
 
-`rspec`
+Run `rspec` from the command line.
 
 ## Running an example
 
-From command line:
+From the command line:
+
 `ruby example.rb`
-It will report the found discrepancies found
+
+It will report the found discrepancies

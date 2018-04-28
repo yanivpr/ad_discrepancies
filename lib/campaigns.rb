@@ -1,4 +1,4 @@
-require 'campaign'
+require_relative 'campaign'
 
 module Campaigns
   class << self
@@ -16,8 +16,8 @@ module Campaigns
             ad_description: 'Description for campaign 11'},
           { id: 1002, job_id: 43, external_reference: '2', status: 'disabled',
             ad_description: 'Description for campaign 12'},
-          { id: 1003, job_id: 44, external_reference: '3', status: 'enabled',
-            ad_description: 'Description for campaign 13'}
+          { id: 1003, job_id: 44, external_reference: '3', status: 'disabled',
+            ad_description: 'Description for campaign 13.1'}
         ]
       }
     end

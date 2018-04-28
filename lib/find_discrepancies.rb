@@ -1,3 +1,4 @@
+require_relative 'comparison'
 require 'json'
 
 class FindDiscrepancies

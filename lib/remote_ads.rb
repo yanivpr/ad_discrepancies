@@ -1,4 +1,4 @@
-require 'remote_ad'
+require_relative 'remote_ad'
 require 'net/http'
 require 'oj'
 

@@ -1,11 +1,11 @@
-require 'campaigns'
-require 'remote_ads'
-require 'find_discrepancies'
+require_relative 'campaigns'
+require_relative 'remote_ads'
+require_relative 'find_discrepancies'
 
 module FullFindDiscrepancies
   module_function
 
-  def call  
+  def call
     campaigns = Campaigns.fetch
     remote_ads = RemoteAds.fetch
 
